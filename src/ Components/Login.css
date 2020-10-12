@@ -14,7 +14,7 @@
     height: 100px;
 }
 .loginBtn {
-    width: 300px;
+    width: 24rem;
 	height: 50px;
     border-radius: 25px;
     outline: none;
@@ -27,5 +27,62 @@
 	text-transform: uppercase;
 	margin: 1rem 0;
 	cursor: pointer;
-	transition: .5s;
+    transition: .5s;
+    margin-top: 2rem;
 }
+
+input {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #707070;
+    width: 24rem;
+    
+  }
+  input:focus {
+    border-color: green
+  }
+  ::placeholder {
+      color:#707070;
+      font-size: 25px;
+      /* text-align: center; */
+  }
+  select {
+      width:24rem;
+      height: 2.5rem;
+      outline: 0;
+      border-radius: 10px;
+      transition: .5s;
+  }
+  .dropInput {
+      outline: 1.5px;
+      outline-style: dotted;
+    margin-top: 1rem;
+    height: 80px;
+  }
+  @media only screen and (max-width: 600px) {
+    .left {
+        display: none;
+    }
+      
+      .title {
+          margin-top: 4rem !important;
+          margin-left: 7rem;
+      }
+      .titleHeader {
+        font-size: 21px!important;
+      }
+      .Pbar {
+          margin-left: 2rem!important;
+      }
+      .personalInfo {
+         /* text-align: center; */
+         margin-left: 4rem!important;
+      }
+      
+      input,select {
+          width: 21rem;
+      }
+      .loginBtn {
+        width: 21rem;
+      }
+  }

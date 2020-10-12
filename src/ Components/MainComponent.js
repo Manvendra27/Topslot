@@ -1,14 +1,21 @@
 import React, { Component } from 'react';
-import Login from './Login'
+import Personalinfo from './Personalinfo';
+import UploadDocs from './UploadDocs';
+import Payment from './Payment';
+import { Switch,Route,Redirect} from 'react-router-dom';
 
-export class MainComponent extends Component {
+export class Main extends Component {
     render() {
         return (
             <div>
-                <Login />
+                <Switch>
+                <Route exact path='/' component={() => <Personalinfo />} />
+                <Route exact path='/upload' component={() => <UploadDocs />} />
+                <Route exact path='/payment' component={() => <Payment />} />
+                </Switch>
             </div>
         )
     }
 }
 
-export default MainComponent
+export default (Main)
