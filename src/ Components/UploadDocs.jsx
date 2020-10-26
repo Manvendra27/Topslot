@@ -26,7 +26,7 @@ export class UploadDocs extends Component {
                       <h2 className='titleHeader' style={{marginTop:'1rem'}}>Upload Your Documents</h2>
                       </div>
                       <div className='row'>
-                          <div className='col-sm-12 Pbar' style={{textAlign:'center',marginLeft:'9rem',marginTop:'2rem'}}>
+                          <div className='col-sm-12 Pbar' style={{textAlign:'center',marginLeft:'12rem',marginTop:'2rem'}}>
                       <ProgressBar
                         percent={50}
                         width={350}

@@ -23,7 +23,7 @@ export class Payment extends Component {
                       <h2 style={{marginTop:'1rem'}}>Payment</h2>
                       </div>
                       <div className='row'>
-                          <div className='col-sm-12 Pbar' style={{textAlign:'center',marginLeft:'9rem',marginTop:'2rem'}}>
+                          <div className='col-sm-12 Pbar' style={{textAlign:'center',marginLeft:'12rem',marginTop:'2rem'}}>
                       <ProgressBar
                         percent={100}
                         width={350}
