@@ -25,10 +25,11 @@ export class Personalinfo extends Component {
                       <h2 className="titleHeader" style={{marginTop:'1rem'}}>Apply For Premium Jobs</h2>
                       </div>
                       <div className='row'>
-                          <div className='col-sm-12 Pbar' style={{textAlign:'center',marginLeft:'9rem',marginTop:'2rem'}}>
+                          <div className='col-sm-12 Pbar' style={{textAlign:'center',marginLeft:'12rem',marginTop:'2rem'}}>
                       <ProgressBar
+                      className='ProgressBar'
                         percent={0}
-                        width={450}
+                        width={350}
                         filledBackground="#6C63FF">
                         <Step transition="scale">
                         {({ accomplished }) => (
@@ -45,7 +46,7 @@ export class Personalinfo extends Component {
                             <MdIcons.MdPayment size={30}/>
                         )}
                         </Step>
-                    </ProgressBar>≈
+                    </ProgressBar>
                       {/*  */}
                   </div>
                   </div>

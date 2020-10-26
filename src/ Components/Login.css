@@ -65,18 +65,20 @@ input {
     }
       
       .title {
-          margin-top: 4rem !important;
-          margin-left: 7rem;
+          margin-top: 2rem !important;
+          margin-left: 0rem;
       }
       .titleHeader {
         font-size: 21px!important;
       }
       .Pbar {
-          margin-left: 2rem!important;
+          margin-left: 2.2rem!important;
+          /* margin-right: 2rem !important; */
+          
       }
       .personalInfo {
          /* text-align: center; */
-         margin-left: 4rem!important;
+         margin-left: 2rem!important;
       }
       
       input,select {
@@ -84,5 +86,8 @@ input {
       }
       .loginBtn {
         width: 21rem;
+      }
+      .ProgressBar {
+          width: 50px;
       }
   }
