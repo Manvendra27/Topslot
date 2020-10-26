@@ -26,7 +26,7 @@ export class Payment extends Component {
                           <div className='col-sm-12 Pbar' style={{textAlign:'center',marginLeft:'9rem',marginTop:'2rem'}}>
                       <ProgressBar
                         percent={100}
-                        width={450}
+                        width={350}
                         filledBackground="#6C63FF">
                         <Step transition="scale">
                         {({ accomplished }) => (
